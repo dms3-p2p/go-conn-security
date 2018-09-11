@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	security "github.com/libp2p/go-conn-security"
+	security "github.com/dms3-p2p/go-conn-security"
 
-	ci "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
+	ci "github.com/dms3-p2p/go-p2p-crypto"
+	peer "github.com/dms3-p2p/go-p2p-peer"
 )
 
 // ID is the multistream-select protocol ID that should be used when identifying
